@@ -1,4 +1,4 @@
-package pages;
+package pages.add_cart;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

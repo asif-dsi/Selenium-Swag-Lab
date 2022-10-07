@@ -2,10 +2,10 @@ package testrunner;
 
 import environment.Setup;
 import org.testng.annotations.Test;
-import pages.AddProductToCart;
-import pages.Login;
-import pages.ProductFilter;
-import pages.SideMenu;
+import pages.add_cart.AddProductToCart;
+import pages.login.Login;
+import pages.filter.ProductFilter;
+import pages.side_menu.SideMenu;
 
 public class Run extends Setup {
     Login login;
