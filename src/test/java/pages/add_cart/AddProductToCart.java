@@ -35,13 +35,4 @@ public class AddProductToCart {
             System.out.println("All items are added to cart.");
         }
     }
-
-    @FindBy(className = "shopping_cart_link")
-    WebElement btnViewCart;
-    @FindBy(className = "inventory_item_name")
-    List<WebElement> addedProducts;
-
-    public void viewCart(){
-
-    }
 }
