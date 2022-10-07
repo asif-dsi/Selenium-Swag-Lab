@@ -25,13 +25,16 @@ public class Login {
     @FindBy(className = "title")
     WebElement pageTitle;
 
+
     public void doLogin() throws InterruptedException {
         userName.sendKeys("standard_user");
         pass.sendKeys("secret_sauce");
         btnLogin.click();
         Thread.sleep(3000);
         String title = pageTitle.getText();
+        Assert.assertTrue(title.contains("PRODUCTS"));
         System.out.println("Asserted");
     }
+
 
 }
