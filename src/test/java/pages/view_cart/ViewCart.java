@@ -14,7 +14,7 @@ public class ViewCart {
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
-    
+
     @FindBy(className = "shopping_cart_link")
     WebElement btnViewCart;
     @FindBy(className = "inventory_item_name")
